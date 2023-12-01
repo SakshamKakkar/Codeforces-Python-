@@ -1,0 +1,9 @@
+vowels = ["a","e","i","o","u","y"]
+x = str(input().lower())
+lst = list(x)
+lst1 = []
+for i in lst:
+    if i not in vowels:
+        lst1.append(i)
+
+print("."+".".join(lst1))
