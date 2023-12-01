@@ -1,0 +1,8 @@
+k,n,w = map(int,input().split())
+m=0
+for i in range(w):
+    m = m + k*(i+1)
+if m>n:
+    print(m-n)
+elif n>=m:
+    print(0)
