@@ -1,0 +1,9 @@
+s = str(input())
+t = str(input())
+lst = list(t)
+lst = lst[::-1]
+x = "".join(lst)
+if x==s:
+    print("YES")
+else:
+    print("NO")
