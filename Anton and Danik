@@ -1,0 +1,11 @@
+n = int(input())
+x = str(input())
+lst = list(x)
+y = lst.count("A")
+z = lst.count("D")
+if y>z:
+    print("Anton")
+elif z>y:
+    print("Danik")
+else:
+    print("Friendship")
