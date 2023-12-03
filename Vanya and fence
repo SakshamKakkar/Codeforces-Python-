@@ -1,0 +1,10 @@
+n,h = map(int,input().split())
+x = map(int,input().split())
+lst = list(x)
+out = 0
+for i in lst:
+    if i>h:
+        out+=2
+    else:
+        out+=1
+print(out)
