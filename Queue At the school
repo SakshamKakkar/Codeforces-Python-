@@ -1,0 +1,12 @@
+n,t = map(int,input().split())
+x = str(input())
+lst = list(x)
+for x in range(t):
+    i = 0
+    while i< n-1:
+        if lst[i] == "B" and lst[i+1] == "G":
+            lst[i],lst[i+1] = lst[i+1],lst[i]
+            i+=2
+        else:
+            i+=1
+print("".join(lst))
