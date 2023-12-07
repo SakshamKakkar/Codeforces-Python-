@@ -1,0 +1,14 @@
+n,k = map(int,input().split())
+lst1 = []
+lst2 = []
+i =1
+j = 2
+while i<=n or j<=n:
+    if i<=n:
+        lst1.append(i)
+        i+=2
+    if j<=n:
+        lst2.append(j)
+        j+=2
+lst = lst1 + lst2
+print(lst[k-1])
