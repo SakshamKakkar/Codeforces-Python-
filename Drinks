@@ -1,0 +1,6 @@
+n = int(input())
+x = map(int,input().split())
+lst = list(x)
+m = 100*n
+y = sum(lst)
+print((y/m)*100)
