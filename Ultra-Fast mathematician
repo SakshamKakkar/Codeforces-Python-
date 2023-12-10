@@ -1,0 +1,12 @@
+x = (input())
+lst1 = list(x)
+y = (input())
+lst2 = list(y)
+lst = []
+n = len(lst1)
+for i in range(n):
+    if lst1[i] == lst2[i]:
+        lst.append("0")
+    else:
+        lst.append("1")
+print("".join(lst))
