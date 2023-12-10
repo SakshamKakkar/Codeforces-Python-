@@ -1,0 +1,12 @@
+x = input()
+lst = list(x)
+lst1 = ["H","Q","9"]
+for i in lst1:
+    if i in lst:
+        x = "YES"
+        break
+    else:
+        x = "NO"
+print(x)
+
+
