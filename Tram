@@ -1,0 +1,10 @@
+n = int(input())
+m=0
+lst = []
+for i in range(n):
+    a,b = map(int,input().split())
+    m = m-a
+    m = m + b
+    lst.append(m)
+x = max(lst)
+print(x)
