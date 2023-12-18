@@ -1,0 +1,7 @@
+n = (input())
+lst = list(n)
+y = lst.count("4") + lst.count("7")
+if y==4 or y==7:
+    print("YES")
+else:
+    print("NO")
