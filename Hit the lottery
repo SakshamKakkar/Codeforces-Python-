@@ -1,0 +1,23 @@
+n = int(input())
+m=0
+while n>0:
+    if n>=100:
+        m+=1*(n//100)
+        n = n-100*(n//100)
+        continue
+    elif n>=20:
+        n = n-20
+        m+=1
+        continue
+    elif n>=10:
+        n = n-10
+        m+=1
+        continue
+    elif n>=5:
+        n = n-5
+        m+=1
+        continue
+    elif n>=1:
+        m = m+n
+        break
+print(m)
