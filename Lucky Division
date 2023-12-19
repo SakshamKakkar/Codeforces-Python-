@@ -1,0 +1,13 @@
+n = int(input())
+x = str(n)
+lst = list(x)
+set2 = set(lst)
+set1 = {"4","7"}
+if n%4==0 or n%47==0:
+    print("YES")
+elif n%7==0 or n%74==0:
+    print("YES")
+elif set1.union(set2)=={"4","7"}:
+    print("YES")
+else:
+    print("NO")
