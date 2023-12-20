@@ -1,0 +1,18 @@
+t = int(input())
+for i in range(t):
+    y = "yes"
+    a,b,c = map(int,input().split())
+    if a+b == c:
+        print(y)
+        continue
+    elif a+c == b:
+        print(y)
+        continue
+    elif b+c == a:
+        print(y)
+        continue
+    else:
+        y = "no"
+        print(y)
+        continue
+        
