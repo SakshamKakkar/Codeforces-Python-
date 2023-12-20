@@ -1,0 +1,8 @@
+t = int(input())
+for i in range(t):
+    x = int(input())
+    lst = list(map(int,input().split()))
+    for i in lst:
+        if lst.count(i)==1:
+            print((lst.index(i))+1)
+            break
